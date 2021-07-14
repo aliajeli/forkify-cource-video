@@ -7,11 +7,6 @@ import bookmarksView from './views/bookmarksView.js';
 import addRecipeView from './views/addRecipeView.js';
 import { MODAL_CLOSE_SEC } from './config.js';
 
-// --------------------------------
-// if (module.hot) {
-//   module.hot.accept();
-// }
-
 // import icons from '../img/icons.svg'
 
 // polyfills async/await
@@ -130,9 +125,6 @@ const controlAddRecipe = async function (newRecipe) {
   // upload the new recipe data
 };
 
-const newFeature = function () {
-  console.log('Welcome to the application');
-};
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
@@ -142,7 +134,6 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
 
-  newFeature();
   // controlServings();
 };
 init();
