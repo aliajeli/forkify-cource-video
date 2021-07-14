@@ -1,0 +1,27 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Ali Ajeli Lahiji",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "core-js": "^3.13.1",
+    "fractional": "^1.0.0",
+    "install": "^0.13.0",
+    "npm": "^7.16.0",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.26.10"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
